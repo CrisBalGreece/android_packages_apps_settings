@@ -394,5 +394,45 @@
     <!-- High touch polling rate -->
     <string name="high_touch_polling_rate_title">Υψηλός ρυθμός σταθμοσκόπησης</string>
 	<string name="high_touch_polling_rate_summary">Αύξηση του ρυθμού σταθμοσκόπησης της οθόνης αφής</string>
+	
+    <!-- Hide Status bar on lock screen -->
+    <string name="hide_lockscreen_status_bar_title">Απόκρυψη γραμμής κατάστασης</string>
+    <string name="hide_lockscreen_status_bar_summary">Αγγίξτε τη γραμμή κατάστασης για να εναλλάξετε την ορατότητα</string>
+
+    <!-- Status bar QS - Battery -->
+    <string name="qs_battery_style_title">Στυλ μπαταρίας QS</string>
+    <string name="status_bar_battery_style_title">Στυλ μπαταρίας στατικής μπάρας</string>    
+    <string name="status_bar_battery_style_icon_portrait">Εικονίδιο κατακόρυφο</string>
+    <string name="status_bar_battery_style_icon_rlandscape">Οριζόντιο Εικονίδιο(Δεξιά)</string>
+    <string name="status_bar_battery_style_icon_landscape">Οριζόντιο Εικονίδιο(Αριστερά)</string>
+    <string name="status_bar_battery_style_icon_rlandscape_style_a">Οριζόντιο R Στυλ A</string>
+    <string name="status_bar_battery_style_icon_landscape_style_a">Οριζόντιο L Στυλ A</string>
+    <string name="status_bar_battery_style_icon_rlandscape_style_b">Οριζόντιο R Στυλ B</string>
+    <string name="status_bar_battery_style_icon_landscape_style_b">Οριζόντιο L Στυλ B</string>
+    <string name="status_bar_battery_style_icon_landscape_ios15">Οριζόντιο iOS 15</string>
+    <string name="status_bar_battery_style_icon_landscape_ios16">Οριζόντιο iOS 16</string>
+    <string name="status_bar_battery_style_icon_landscape_origami">Οριζόντιο Origami</string>
+    <string name="status_bar_battery_style_icon_landscape_pill">Κατακόρυφο Mx</string>
+    <string name="status_bar_battery_style_icon_landscape_line">Οριζόντια γραμμή</string>
+    <string name="status_bar_battery_style_icon_landscape_musku">Κατακόρυφο IOS</string>
+    <string name="status_bar_battery_style_icon_landscape_signal">Οριζόντιο Airoo</string>
+    <string name="status_bar_battery_style_icon_landscape_buddy">Οριζόντιο Capsule</string>
+    <string name="status_bar_battery_style_circle">Κύκλος</string>
+    <string name="status_bar_battery_style_dotted_circle">Διάστικτος κύκλος</string>
+    <string name="status_bar_battery_style_big_circle">Μεγάλος κύκλος</string>
+    <string name="status_bar_battery_style_big_dotted_circle">Μεγάλος διάστικτος κύκλος</string>
+    <string name="status_bar_battery_style_filled_circle">Γεμάτος κύκλος</string>
+    <string name="status_bar_battery_style_text">Κείμενο</string>
+    <string name="status_bar_battery_style_hidden">Κρυμμένο</string>
+    <string name="status_bar_battery_percent_title">Ποσοστό μπαταρίας στην στατική μπάρα</string>
+    <string name="qs_battery_percent_title">Ποσοστό μπαταρίας QS</string>
+    <string name="status_bar_battery_percent_hidden">Κρυφό</string>
+    <string name="status_bar_battery_percent_text_inside">Μέσα στο εικονίδιο</string>
+    <string name="status_bar_battery_percent_text_next">Δίπλα στο εικονίδιο</string> 
+    <string name="status_bar_battery_text_charging_title">Ποσοστό μπαταρίας όταν φορτίζει</string>
+    <string name="status_bar_battery_text_charging_summary">Εμφάνιση πάντα του ποσοστού μπαταρίας όταν φορτίζει</string>
+
+    <!-- QS battery -->
+    <string name="qs_use_status_bar_battery_style">Ακολούθησε το στυλ της γραμμής κατάστασης</string>
 
 </resources>

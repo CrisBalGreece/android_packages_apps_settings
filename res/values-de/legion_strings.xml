@@ -1,0 +1,444 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2020 LegionOS Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <!-- String for removal of sensitive info on about, depending on tap -->
+    <string name="device_info_protected_single_press">Tippen Sie, um Informationen anzuzeigen</string>
+
+    <!-- About phone screen,  setting option name  [CHAR LIMIT=40] -->
+    <string name="build_date">Erstellungsdatum</string>
+    <string name="legion_version">LegionOS-Version</string>
+    <string name="about_device_name">Gerät</string>
+
+    <!-- Refresh rate -->
+    <string name="refresh_rate_title">Bildwiederholrate</string>
+    <string name="min_refresh_rate_title">Minimale Bildwiederholrate</string>
+    <string name="max_refresh_rate_title">Maximale Bildwiederholrate</string>
+    <string name="preferred_refresh_rate_title">Bevorzugte Bildwiederholrate</string>
+    <string name="preferred_refresh_rate_info">Die bevorzugte Bildwiederholrate wird als Standard-Bildwiederholrate für Benutzerinteraktionen verwendet, solange sie innerhalb der minimalen und maximalen Bildwiederholrate liegt.</string>
+    <string name="battery_saver_refresh_rate_title">Bildwiederholrate reduzieren</string>
+    <string name="battery_saver_refresh_rate_summary">Verwenden Sie eine Bildwiederholrate von 60 Hz, um Strom zu sparen, wenn der Batteriesparmodus aktiviert ist</string>
+
+    <!-- Message shown in fingerprint enrollment dialog to locate the sensor -->
+    <string name="fingerprint_enroll_find_sensor_message_front" product="tablet">Suchen Sie den Fingerabdrucksensor auf der Vorderseite Ihres Tablets.</string>
+    <string name="fingerprint_enroll_find_sensor_message_front" product="device">Suchen Sie den Fingerabdrucksensor auf der Vorderseite Ihres Geräts.</string>
+    <string name="fingerprint_enroll_find_sensor_message_front" product="default">Suchen Sie den Fingerabdrucksensor auf der Vorderseite Ihres Telefons.</string>
+    <string name="fingerprint_enroll_find_sensor_message_rear" product="tablet">Suchen Sie den Fingerabdrucksensor auf der Rückseite Ihres Tablets.</string>
+    <string name="fingerprint_enroll_find_sensor_message_rear" product="device">Suchen Sie den Fingerabdrucksensor auf der Rückseite Ihres Geräts.</string>
+    <string name="fingerprint_enroll_find_sensor_message_rear" product="default">Suchen Sie den Fingerabdrucksensor auf der Rückseite Ihres Telefons.</string>
+    <string name="fingerprint_enroll_find_sensor_message_side" product="tablet">Suchen Sie den Fingerabdrucksensor an der Seite Ihres Tablets.</string>
+    <string name="fingerprint_enroll_find_sensor_message_side" product="device">Suchen Sie den Fingerabdrucksensor an der Seite Ihres Geräts.</string>
+    <string name="fingerprint_enroll_find_sensor_message_side" product="default">Suchen Sie den Fingerabdrucksensor an der Seite Ihres Telefons.</string>
+
+    <!-- Message shown when user touches the icon on the screen, instead of the real fingerprint sensor -->
+    <string name="fingerprint_enroll_touch_dialog_message_front" product="tablet">Berühren Sie den Sensor auf der Vorderseite Ihres Tablets.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_front" product="device">Berühren Sie den Sensor auf der Vorderseite Ihres Geräts.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_front" product="default">Berühren Sie den Sensor auf der Vorderseite Ihres Telefons.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_rear" product="tablet">Berühren Sie den Sensor auf der Rückseite Ihres Tablets.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_rear" product="device">Berühren Sie den Sensor auf der Rückseite Ihres Geräts.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_rear" product="default">Berühren Sie den Sensor auf der Rückseite Ihres Telefons.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_side" product="tablet">Berühren Sie den Sensor an der Seite Ihres Tablets.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_side" product="device">Berühren Sie den Sensor an der Seite Ihres Geräts.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_side" product="default">Berühren Sie den Sensor an der Seite Ihres Telefons.</string>
+
+    <!-- Add sliders for color balance adjustment via ColorDisplayManager -->
+    <string name="color_mode_balance_category">Farbbalance</string>
+    <string name="color_mode_balance_red">Rotstärke</string>
+    <string name="color_mode_balance_green">Grünstärke</string>
+    <string name="color_mode_balance_blue">Blausträrke</string>
+    <string name="keywords_color_balance">Farbe, Farbbalance, Farbkorrektur, rot, grün, blau, LiveDisplay</string>
+
+    <!-- Proximity wake -->
+    <string name="proximity_wake_title">Versehentliches Aufwecken verhindern</string>
+    <string name="proximity_wake_summary">Überprüfen Sie den Näherungssensor, bevor Sie den Bildschirm mit der Geste Double Tap 2 Wake aufwecken</string>
+
+    <!-- Volume rocker wake -->
+    <string name="volume_rocker_wake_title">Lautstärke wecken</string>
+    <string name="volume_rocker_wake_summary">Wecken Sie Ihr Gerät auf, indem Sie die Lautstärketasten drücken</string>
+
+    <!-- General -->
+    <string name="copied_to_clipboard">In die Zwischenablage kopiert</string>
+    <string name="longpress_to_clipboard">Lang drücken zum Kopieren</string>
+
+    <!-- Incall vibrate options -->
+    <string name="incall_vibration_category">Vibrationsoptionen bei Anrufen</string>
+    <string name="incall_vibrate_connect_title">Vibrieren bei Verbindung</string>
+    <string name="incall_vibrate_call_wait_title">Vibrieren bei Anklopfen</string>
+    <string name="incall_vibrate_disconnect_title">Vibrieren bei Trennung</string>
+
+    <!-- Annoying Notifications -->
+    <string name="notification_sound_vib_screen_on_title">Nervige Benachrichtigungen</string>
+    <string name="notification_sound_vib_screen_on_summary">Ton und Vibration für Benachrichtigungen abspielen, wenn der Bildschirm eingeschaltet ist</string>
+
+     <!-- Global Actions -->
+    <string name="global_actions_advanced_reboot_title">Erweiterten Neustart aktivieren</string>
+    <string name="global_actions_advanced_reboot_summary">Optionen für Wiederherstellung und Bootloader im Ein/Aus-Menü anzeigen</string>
+
+    <!-- Three-fingers-swipe to screenshot -->
+    <string name="three_finger_gesture">Wischen zum Screenshot</string>
+    <string name="three_finger_gesture_summary">Wischen Sie mit drei Fingern nach unten, um einen Screenshot zu machen</string>
+
+    <!-- Radio Info -->
+    <string name="radio_info_title">Radio-Info</string>
+
+    <!-- Hotspot VPN -->
+    <string name="tethering_allow_vpn_upstreams_title">Clients erlauben, VPNs zu verwenden</string>
+    <string name="tethering_allow_vpn_upstreams_summary">Erlauben Sie Hotspot-Clients, die VPN-Verbindungen dieses Geräts für die Upstream-Konnektivität zu verwenden</string>
+
+    <!-- Navbar options -->
+    <string name="navbar_invert_layout_title">Navigationsleiste umkehren</string>
+    <string name="navbar_invert_info">Tauschen Sie die \"Zurück\"- und \"Letzte\"-Tasten auf der Navigationsleiste aus</string>
+
+    <!-- Left volume panel -->
+    <string name="volume_panel_on_left_title">Lautstärkeleiste links anzeigen</string>
+    <string name="volume_panel_on_left_summary">Verschieben Sie die Lautstärkeleiste auf die linke Seite des Bildschirms</string>
+
+    <!-- Torch Power button gestures -->
+    <string name="power_button_torch_title">Schnelle Taschenlampe</string>
+    <string name="power_button_torch_summary">Wenn der Bildschirm ausgeschaltet ist, wird durch langes Drücken der Ein-/Aus-Taste die Taschenlampe aktiviert</string>
+
+    <!-- DT2S on statusbar-->
+    <string name="double_tap_sleep_gesture_title">Tippen zum Schlafen</string>
+    <string name="double_tap_sleep_gesture_summary">Tippen Sie zweimal auf eine beliebige Stelle in der Statusleiste, um das Gerät in den Schlafmodus zu versetzen</string>
+
+    <!-- Low battery light -->
+    <string name="low_battery_light_title">Niedrige Batterieleuchte</string>
+    <string name="low_battery_light_summary">LED blinkt, wenn der Akku niedrig ist</string>
+
+    <!-- Network traffic -->
+    <string name="network_traffic_title">Netzwerkverkehrs-Anzeige</string>
+    <string name="network_traffic_summary">Netzwerkgeschwindigkeits-Anzeige in der Statusleiste aktivieren oder deaktivieren</string>
+    <string name="network_traffic_state_title">"Netzwerkverkehrs-Anzeige" aktivieren</string>
+    <string name="network_options_title">Optionen</string>
+    <string name="network_traffic_autohide_title">Netzwerkverkehrs-Anzeige ausblenden, wenn inaktiv</string>
+    <string name="network_traffic_autohide_summary">Ausblenden, wenn Netzwerkverkehrs-Anzeige unter 1 KB/s liegt</string>
+
+    <!-- Display customization category -->
+    <string name="customization_category_title">Anpassung</string>
+
+    <!-- QS footer data usage -->
+    <string name="qs_show_data_usage_title">Datenverbrauch anzeigen</string>
+    <string name="qs_show_data_usage_summary">Täglichen Mobilfunk-/WLAN-Datenverbrauch in QS-Fußzeile anzeigen</string>
+
+    <!-- Status bar Icon Manager -->
+    <string name="icon_manager_title">Statusleistenelemente</string>
+    <string name="icon_manager_summary">Sichtbarkeit der Statusleistensymbole steuern</string>
+
+    <!-- Black theme -->
+    <string name="system_black_theme_title">Schwarzes Thema verwenden</string>
+    <string name="system_black_theme_summary">Schwarze Hintergrundfarben erzwingen</string>
+
+    <!-- Show clipboard overlay -->
+    <string name="show_clipboard_overlay_title">Zwischenablage-Overlay anzeigen</string>
+    <string name="show_clipboard_overlay_summary">Ein Overlay in der linken unteren Ecke des Bildschirms anzeigen, wenn etwas in die Zwischenablage kopiert wird</string>
+
+    <!-- Volume rocker music control -->
+    <string name="volume_button_music_control_title">Wiedergabesteuerung</string>
+    <string name="volume_button_music_control_summary">Wenn der Bildschirm ausgeschaltet ist, werden durch langes Drücken der Lautstärketasten Musiktitel übersprungen</string>
+
+    <!-- Parallel space -->
+    <string name="laboratory_parallel_space_title">Paralleler Raum</string>
+    <string name="laboratory_parallel_space_summary">Erlaubt das gleichzeitige Ausführen mehrerer Instanzen derselben Anwendung.</string>
+
+    <!-- Backup Transport selection settings menu and activity title -->
+    <string name="backup_transport_setting_label">Backup-Anbieter ändern</string>
+    <string name="backup_transport_title">Backup-Anbieter auswählen</string>
+
+    <!-- Ignore window secure -->
+    <string name="ignore_window_secure_title">Fenstersicherheitsflags ignorieren</string>
+    <string name="ignore_window_secure_summary">Entfernt die Screenshot- und Bildschirmaufnahmebeschränkungen für alle Apps. Dies kann in einigen Fällen praktisch sein, aber zu Datenschutzverletzungen führen.</string>
+
+    <!-- App lock -->
+    <string name="app_lock_title">App-Sperre</string>
+    <plurals name="app_lock_summary">
+        <item quantity="one"><xliff:g example="1" id="Number of applications">%1$d</xliff:g> Anwendung ist geschützt</item>
+        <item quantity="other"><xliff:g example="10" id="Number of applications">%1$d</xliff:g> Anwendungen sind geschützt</item>
+    </plurals>
+    <string name="app_lock_authentication_dialog_title">Entsperren</string>
+    <string name="enable_debugging">Debugging aktivieren</string>
+    <string name="disable_debugging">Debugging deaktivieren</string>
+    <string name="app_lock_packages_title">Geschützte Apps</string>
+    <string name="app_lock_packages_summary">Wählen Sie die Apps aus, die mit biometrischen Daten oder Geräteanmeldedaten geschützt werden sollen</string>
+    <string name="app_lock_timeout_title">Automatische Sperrzeit</string>
+    <string name="app_lock_timeout_summary">Zeitdauer, nach der eine entsperrte App im Hintergrund gesperrt werden soll</string>
+    <string name="app_lock_notifications_title">Benachrichtigungen schwärzen</string>
+    <string name="app_lock_notifications_summary">
+      Benachrichtigungsinhalte werden für ausgewählte Apps ausgeblendet und eingeklappt, wenn sie gesperrt sind.
+      Heads-up-Benachrichtigungen werden automatisch deaktiviert.
+    </string>
+    <string name="app_lock_notifications_disabled_summary">Schützen Sie zuerst eine Anwendung</string>
+    <string name="app_lock_biometrics_allowed_title">Biometrie zum Entsperren aktivieren</string>
+    <string name="app_lock_footer_text">Blasen werden nach Ablauf der Zeit automatisch geschlossen</string>
+    <string name="enable_protection">Schutz aktivieren</string>
+    <string name="hide_from_launcher_title">Vor Launcher verstecken</string>
+    <string name="hide_from_launcher_summary">
+    Verhindert, dass diese Anwendung im Launcher angezeigt wird. Erfordert einen Neustart des Launchers, damit die Änderungen wirksam werden.
+    </string>
+
+    <!-- Fingerprint Ripple Effect -->
+    <string name="enable_fingerprint_ripple_effect_title">Ripple-Effekt</string>
+    <string name="enable_fingerprint_ripple_effect_summary">Zeige Ripple-Effekt beim Entsperren mit Fingerabdruck</string>
+
+    <!-- Screenshot shutter -->
+    <string name="screenshot_shutter_sound_title">Screenshot-Ton</string>
+
+    <!-- Notch: Full screen apps -->
+    <string name="display_cutout_force_fullscreen_title">Vollbild-Apps</string>
+    <string name="display_cutout_force_fullscreen_summary">Erzwinge Apps, den Notch-Bereich zu ignorieren</string>
+    <string name="search">Suche</string>
+    <string name="search_apps">Apps suchen</string>
+
+    <!-- Quick Settings quick pulldown -->
+    <string name="quick_settings_quick_pull_down_title">Schnelles QS-Pulldown</string>
+    <string name="quick_settings_quick_pull_down_summary">Ziehe die Statusleiste von der rechten Seite nach unten, um die Schnelleinstellungen zu erweitern</string>
+
+    <!-- Battery stats reset -->
+    <string name="battery_stats_reset">Statistiken zurücksetzen?</string>
+    <string name="battery_stats_message">Batterienutzungsdaten gehen verloren</string>
+
+    <!-- Preference and settings suggestion title text for screen off UDFPS [CHAR LIMIT=60]-->
+    <string name="ambient_display_screen_off_udfps_title">Immer an Fingerabdruck</string>
+    <!-- Summary text for screen off UDFPS [CHAR LIMIT=NONE]-->
+    <string name="ambient_display_screen_off_udfps_summary">Ermöglicht das Entsperren mit ausgeschaltetem Bildschirm.\nDas Aktivieren kann zu versehentlichen Aufweckungen führen.</string>
+
+    <!-- Face Unlock -->
+    <string name="security_settings_face_unlock_redo_face_scan_summary">Entferne den vorhandenen Gesichtsscan und erstelle einen neuen Scan</string>
+    <string name="security_settings_face_unlock_redo_face_scan_title">Gesichtsscan wiederholen</string>
+    <string name="face_redo_confirm_btn">Wiederholen</string>
+    <string name="face_redo_warning_msg">Möchtest du den vorhandenen Gesichtsscan entfernen und einen neuen erstellen?</string>
+    <string name="face_unlock_method_title">Gesichtsentsperrung auf dem Sperrbildschirm erlauben</string>
+    <string name="face_unlock_method_default">Wenn der Bildschirm eingeschaltet ist</string>
+    <string name="face_unlock_method_swipe">Beim Wischen auf dem Sperrbildschirm</string>
+    <string name="skip_biometric_auth_confirmation_title">Manuelle Bestätigung überspringen</string>
+
+    <!-- PIN scramble -->
+    <string name="unlock_scramble_pin_layout_title">Layout mischen</string>
+    <string name="unlock_scramble_pin_layout_summary">Mische das PIN-Layout beim Entsperren des Geräts</string>
+
+    <!-- Quick unlock -->
+   <string name="unlock_quick_unlock_control_title">Schnell entsperren</string>
+   <string name="unlock_quick_unlock_control_summary">Entsperre automatisch, wenn die richtige PIN/das richtige Passwort eingegeben wird</string>
+
+    <!-- Deep Sleep percentage in device info -->
+    <string name="status_sleep_time">Tiefschlaf</string>
+
+    <!-- Battery temperature -->
+    <string name="battery_temperature">Batterietemperatur</string>
+
+    <!-- Battery health -->
+    <string name="current_battery_capacity">Aktuelle Batteriekapazität</string>
+    <string name="designed_battery_capacity">Entworfene Batteriekapazität</string>
+    <string name="battery_charge_cycles">Ladezyklen abgeschlossen</string>
+
+    <!-- WiFi Hotspot -->
+    <string name="wifi_hotspot_hidden_ssid_title">Verstecktes Netzwerk</string>
+    <string name="wifi_hotspot_hidden_ssid_summary">Der Name deines mobilen Hotspots wird nicht in der Liste der verfügbaren WLAN-Netzwerke angezeigt.</string>
+    <string name="wifi_hotspot_client_manager_title">Verbundene Geräte</string>
+    <string name="wifi_hotspot_client_manager_summary">Liste und verwalte Geräte, die mit dem Hotspot verbunden sind</string>
+    <string name="wifi_hotspot_client_manager_list_only_summary">Liste Geräte, die mit dem Hotspot verbunden sind</string>
+    <string name="wifi_hotspot_client_limit_title">Limit der verbundenen Geräte</string>
+    <string name="wifi_hotspot_blocked_clients_list_title">Blockierte Geräte</string>
+    <string name="wifi_hotspot_connected_clients_list_title">Verbundene Geräte</string>
+    <string name="wifi_hotspot_block_client_dialog_title">Gerät blockieren</string>
+    <string name="wifi_hotspot_block_client_dialog_text">Diese Aktion wird \"<xliff:g id="device_name">%1$s</xliff:g>\" von diesem Gerät trennen und zur Blockliste hinzufügen</string>
+    <string name="wifi_hotspot_unblock_client_dialog_title">Gerät freigeben</string>
+    <string name="wifi_hotspot_unblock_client_dialog_text">Das Gerät \"<xliff:g id="device_name">%1$s</xliff:g>\" wird in der Lage sein, sich mit diesem Hotspot zu verbinden</string>
+    <string name="wifi_hotspot_client_manager_footer_text">Derzeit sind keine Clients verfügbar. Verbundene und blockierte Geräte werden hier aufgelistet, wenn sie verfügbar sind.</string>
+    <string name="wifi_band_24ghz_and_5ghz">2,4 GHz &amp; 5 GHz</string>
+    <string name="wifi_band_24ghz_and_6ghz">2,4 GHz &amp; 6 GHz</string>
+    <string name="wifi_band_60ghz">60 GHz</string>
+
+    <!-- Package details -->
+    <string name="package_details_group_title">Paketdetails</string>
+    <string name="package_name">Paketname</string>
+    <string name="package_version">Paketversion</string>
+    <string name="package_version_text"><xliff:g id="version_num">%1$s</xliff:g></string>
+
+    <!-- SELinux Status -->
+    <string name="selinux_status">SELinux-Status</string>
+    <string name="selinux_status_disabled">Deaktiviert</string>
+    <string name="selinux_status_permissive">Permissiv</string>
+    <string name="selinux_status_enforcing">Erzwingend</string>
+
+    <!-- Density category -->
+    <string name="density_category">Dichteoptionen</string>
+
+   <!-- Hardware info -->
+    <!-- Label for device's hardware platform value [CHAR LIMIT=40] -->
+    <string name="platform_revision">Plattform</string>
+    <!-- Label for device's hardware ram size [CHAR LIMIT=40] -->
+    <string name="total_ram">Gesamter RAM</string>
+
+    <!-- Model and Hardware -->
+    <string name="legion_processor_title">Prozessor</string>
+    <string name="legion_storage_code_title">Speicher</string>
+    <string name="legion_battery_type_title">Batterie</string>
+    <string name="legion_screen_title">Bildschirm</string>
+    <string name="net_info">Netzwerk</string>
+    <string name="mod_info">@string/model_info</string> 
+    <string name="id_info">Kennungen</string>
+    <string name="model_summary">Modell, Telefonnummer, IMEI, etc</string>
+    <string name="model_name">Gerätestatus</string>
+    <string name="legal_summary">Lizenzen und Rechtliches</string>
+
+    <!-- About device screen, build maintainer -->
+    <string name="build_maintainer">Build-Betreuer</string>
+
+    <!-- Unlimited Photos storage -->
+    <string name="photos_spoof_title">Unbegrenzter Fotospeicher</string>
+    <string name="photos_spoof_summary">Täusche dein Gerät als Pixel XL für die Google Fotos App vor, um unbegrenzten Speicherplatz für die Sicherung zu bieten</string>
+
+    <!-- Unlock FPS for specific games -->
+    <string name="games_spoof_title">Höhere FPS in Spielen freischalten</string>
+    <string name="games_spoof_summary">Täusche dein Gerät als ein anderes Modell für bestimmte Spiele vor, um höhere FPS freizuschalten</string>
+
+    <!-- Netflix Spoof -->
+    <string name="netflix_spoof_title">Netflix-Spoof</string>
+    <string name="netflix_spoof_summary">Täusche dein Gerät als ein anderes Modell für Netflix vor</string>
+
+    <!-- Lock screen battery info indicator  -->
+    <string name="lockscreen_battery_info_title">Ladeinfo auf dem Sperrbildschirm</string>
+    <string name="lockscreen_battery_info_summary">Zeige den ausgehandelten maximalen Strom und die Spannung des Ladegeräts sowie die Batterietemperatur auf dem Sperrbildschirm an, während das Gerät geladen wird</string>
+
+    <!-- Generic stuff used everywhere -->
+    <string name="reset">Zurücksetzen</string>
+
+    <!-- Buttons -->
+    <string name="button_pref_title">Tasten</string>
+    <string name="hardware_keys_home_key_title">Home-Taste</string>
+    <string name="hardware_keys_back_key_title">Zurück-Taste</string>
+    <string name="hardware_keys_menu_key_title">Menü-Taste</string>
+    <string name="hardware_keys_assist_key_title">Such-Taste</string>
+    <string name="hardware_keys_appswitch_key_title">Recents-Taste</string>
+    <string name="hardware_keys_camera_key_title">Kamera-Taste</string>
+    <string name="hardware_keys_short_press_title">Kurzdruck-Aktion</string>
+    <string name="hardware_keys_long_press_title">Langdruck-Aktion</string>
+    <string name="hardware_keys_double_tap_title">Doppeltipp-Aktion</string>
+    <string name="hardware_keys_action_nothing">Keine Aktion</string>
+    <string name="hardware_keys_action_menu">Menü öffnen/schließen</string>
+    <string name="hardware_keys_action_app_switch">Zuletzt verwendete Apps wechseln</string>
+    <string name="hardware_keys_action_search">Suchassistent</string>
+    <string name="hardware_keys_action_voice_search">Sprachsuche</string>
+    <string name="hardware_keys_action_in_app_search">In-App-Suche</string>
+    <string name="hardware_keys_action_launch_camera">Kamera starten</string>
+    <string name="hardware_keys_action_sleep">Bildschirm ausschalten</string>
+    <string name="hardware_keys_swipe_right_key_title">Nach rechts wischen</string>
+    <string name="hardware_keys_swipe_left_key_title">Nach links wischen</string>
+    <string name="hardware_keys_long_tap_key_title">Lang tippen</string>
+    <string name="hardware_keys_swipe_tap_title">Wisch-Aktion</string>
+    <string name="hardware_keys_long_tap_title">Langtipp-Aktion</string>
+    <string name="button_wake_title">Gerät aufwecken</string>
+    <string name="camera_sleep_on_release_title">Bildschirm spähen</string>
+    <string name="camera_sleep_on_release_summary">Ein halber Druck hält den Bildschirm nur an, während die Taste gedrückt gehalten wird</string>
+    <string name="camera_launch_title">Kamera starten</string>
+    <string name="camera_launch_summary">Ein langer Druck und Loslassen startet die Kamera</string>
+
+    <!-- Key backlight -->
+    <string name="button_backlight_title">Hintergrundbeleuchtung</string>
+    <string name="button_backlight_enabled">Tasten beleuchten</string>
+    <string name="button_backlight_only_when_pressed_title">Tasten nur bei Berührung beleuchten</string>
+    <string name="keyboard_backlight_enabled">Tastatur beleuchten</string>
+    <string name="button_backlight_seekbar_title">Tastenhelligkeit</string>
+    <string name="keyboard_backlight_seekbar_title">Tastaturhelligkeit</string>
+    <string name="backlight_timeout_title">Beleuchtungsdauer</string>
+    <string name="backlight_timeout_unlimited">Nicht ausschalten</string>
+    <string name="backlight_summary_disabled">Deaktiviert</string>
+    <string name="backlight_summary_enabled_with_timeout">Aktiviert für <xliff:g id="timeout">%s</xliff:g></string>
+    <string name="backlight_summary_enabled">Aktiviert</string>
+
+    <!-- Buttons - Enable navbar -->
+    <string name="disable_navkeys_title">On-Screen-Nav-Leiste aktivieren</string>
+    <string name="disable_navkeys_summary">On-Screen-Navigationsleiste aktivieren und Hardware-Tasten deaktivieren</string>
+
+    <!-- Buttons - Swap capacitive keys -->
+    <string name="swap_capacitive_keys_title">Kapazitive Tasten tauschen</string>
+    <string name="swap_capacitive_keys_summary">Die Reihenfolge der letzten und zurück Tasten tauschen</string>
+
+    <!-- Others settings -->
+    <string name="others_settings_title">Andere Einstellungen</string>
+    <string name="additional_buttons_title">Zusätzliche Tasten</string>
+
+    <!-- Advanced keyboard settings -->
+    <string name="keyboard_extras_title">Extras</string>
+    <string name="advanced_keyboard_settings_title">Erweiterte Einstellungen</string>
+
+    <!-- Vollbild-Gesten -->
+    <string name="other_controls_title">Andere Steuerelemente</string>
+    <string name="fullscreen_gestures_title">Vollbild-Gesten</string>
+    <string name="fullscreen_gestures_summary">Verstecke die Navigationsleiste und den Tastaturplatz</string>
+
+    <!-- Länge der Gesten-Navigationsleiste -->
+    <string name="gesture_navbar_length_title">Pillenlänge</string>
+    <string name="short_label">Kurz</string>
+    <string name="long_label">Lang</string>
+
+    <!-- Idle-Manager -->
+    <string name="idle_manager_title">Hintergrundprozesse beenden</string>
+    <string name="idle_manager_summary">Stoppe alle nicht notwendigen Hintergrundprozesse, wenn das Gerät inaktiv ist</string>
+
+    <!-- Hohe Berührungsempfindlichkeit -->
+    <string name="high_touch_sensitivity_title">Hohe Berührungsempfindlichkeit</string>
+    <string name="high_touch_sensitivity_summary">Erhöhe die Empfindlichkeit des Touchscreens, um ihn auch mit Handschuhen bedienen zu können</string>
+
+    <!-- Touchscreen-Schweben -->
+    <string name="touchscreen_hovering_title">Touchscreen-Schweben</string>
+    <string name="touchscreen_hovering_summary">Ermöglicht es, den Bildschirm wie eine Maus in Webbrowsern, Remote-Desktops usw. zu schweben</string>
+
+    <!-- Hohe Touch-Polling-Rate -->
+    <string name="high_touch_polling_rate_title">Hohe Touch-Polling-Rate</string>
+    <string name="high_touch_polling_rate_summary">Erhöhe die Polling-Rate des Touchscreens</string>
+
+    <!-- Statusleiste auf dem Sperrbildschirm ausblenden -->
+    <string name="hide_lockscreen_status_bar_title">Statusleiste ausblenden</string>
+    <string name="hide_lockscreen_status_bar_summary">Berühre die Statusleiste, um die Sichtbarkeit zu wechseln</string>
+
+    <!-- Statusleiste QS - Batterie -->
+    <string name="qs_battery_style_title">QS Batteriestil</string>
+    <string name="status_bar_battery_style_title">Statusleiste Batteriestil</string>    
+    <string name="status_bar_battery_style_icon_portrait">Symbol Hochformat</string>
+    <string name="status_bar_battery_style_icon_rlandscape">Symbol Querformat (Rechts)</string>
+    <string name="status_bar_battery_style_icon_landscape">Symbol Querformat (Links)</string>
+    <string name="status_bar_battery_style_icon_rlandscape_style_a">Querformat R Stil A</string>
+    <string name="status_bar_battery_style_icon_landscape_style_a">Querformat L Stil A</string>
+    <string name="status_bar_battery_style_icon_rlandscape_style_b">Querformat R Stil B</string>
+    <string name="status_bar_battery_style_icon_landscape_style_b">Querformat L Stil B</string>
+    <string name="status_bar_battery_style_icon_landscape_ios15">Querformat iOS 15</string>
+    <string name="status_bar_battery_style_icon_landscape_ios16">Querformat iOS 16</string>
+    <string name="status_bar_battery_style_icon_landscape_origami">Querformat Origami</string>
+    <string name="status_bar_battery_style_icon_landscape_pill">Hochformat Mx</string>
+    <string name="status_bar_battery_style_icon_landscape_line">Querformat Lorn</string>
+    <string name="status_bar_battery_style_icon_landscape_musku">Hochformat IOS</string>
+    <string name="status_bar_battery_style_icon_landscape_signal">Querformat Airoo</string>
+    <string name="status_bar_battery_style_icon_landscape_buddy">Querformat Capsule</string>
+    <string name="status_bar_battery_style_circle">Kreis</string>
+    <string name="status_bar_battery_style_dotted_circle">Gepunkteter Kreis</string>
+    <string name="status_bar_battery_style_big_circle">Großer Kreis</string>
+    <string name="status_bar_battery_style_big_dotted_circle">Großer gepunkteter Kreis</string>
+    <string name="status_bar_battery_style_filled_circle">Gefüllter Kreis</string>
+    <string name="status_bar_battery_style_text">Text</string>
+    <string name="status_bar_battery_style_hidden">Versteckt</string>
+    <string name="status_bar_battery_percent_title">Statusleiste Batterieprozentsatz</string>
+    <string name="qs_battery_percent_title">QS Batterieprozentsatz</string>
+    <string name="status_bar_battery_percent_hidden">Versteckt</string>
+    <string name="status_bar_battery_percent_text_inside">Innerhalb des Symbols</string>
+    <string name="status_bar_battery_percent_text_next">Neben dem Symbol</string> 
+    <string name="status_bar_battery_text_charging_title">Batterieprozentsatz beim Laden</string>
+    <string name="status_bar_battery_text_charging_summary">Zeige immer den Batterieprozentsatz beim Laden an</string>
+
+    <!-- QS-Batterie -->
+    <string name="qs_use_status_bar_battery_style">Folge dem Statusleistenstil</string>
+
+</resources>
