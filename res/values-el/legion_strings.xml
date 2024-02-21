@@ -98,6 +98,10 @@
     <string name="tethering_allow_vpn_upstreams_title">Να επιτρέπεται στους πελάτες η χρήση VPN</string>
     <string name="tethering_allow_vpn_upstreams_summary">Να επιτρέπεται στους πελάτες hotspot να χρησιμοποιούν αυτήν τη συσκευή\u2019s συνδέσεις VPN για συνδεσιμότητα upstream</string>
 
+    <!-- Navbar options -->
+    <string name="navbar_invert_layout_title">Αντιστροφή διάταξης γραμμής πλοήγησης</string>
+    <string name="navbar_invert_info">Αλλάξτε τα κουμπιά \"Πίσω\" και \"Πρόσφατα\" στη γραμμή πλοήγησης</string>
+
     <!-- Left volume panel -->
     <string name="volume_panel_on_left_title">Εμφάνιση πίνακα έντασης στα αριστερά</string>
     <string name="volume_panel_on_left_summary">Μετακινήστε τον πίνακα "Έντασης" στην αριστερή πλευρά της οθόνης</string>
