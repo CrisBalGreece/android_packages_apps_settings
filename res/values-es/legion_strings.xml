@@ -406,7 +406,7 @@
 
 <!-- Ocultar barra de estado en la pantalla de bloqueo -->
 <string name="hide_lockscreen_status_bar_title">Ocultar barra de estado</string>
-<string name="hide_lockscreen_status_bar_summary">Toque la barra de estado para alternar la visibilidad</string>
+<string name="hide_lockscreen_status_bar_summary">Toque la barra de estado para alternar la visibilidad(si el dispositivo lo admite)</string>
 
     <!-- Barra de estado QS - Batería -->
 <string name="qs_battery_style_title">Estilo de batería de QS</string>

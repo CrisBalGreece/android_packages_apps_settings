@@ -403,7 +403,7 @@
 
     <!-- Statusleiste auf dem Sperrbildschirm ausblenden -->
     <string name="hide_lockscreen_status_bar_title">Statusleiste ausblenden</string>
-    <string name="hide_lockscreen_status_bar_summary">Berühre die Statusleiste, um die Sichtbarkeit zu wechseln</string>
+    <string name="hide_lockscreen_status_bar_summary">Berühre die Statusleiste, um die Sichtbarkeit zu wechseln(sofern das Gerät dies unterstützt)</string>
 
     <!-- Statusleiste QS - Batterie -->
     <string name="qs_battery_style_title">QS Batteriestil</string>

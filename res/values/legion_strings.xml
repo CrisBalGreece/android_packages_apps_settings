@@ -405,7 +405,7 @@
 
     <!-- Hide Status bar on lock screen -->
     <string name="hide_lockscreen_status_bar_title">Hide status bar</string>
-    <string name="hide_lockscreen_status_bar_summary">Touch status bar to toggle visibility</string>
+    <string name="hide_lockscreen_status_bar_summary">Touch status bar to toggle visibility(if device support it)</string>
 
     <!-- Status bar QS - Battery -->
     <string name="qs_battery_style_title">QS Battery style</string>

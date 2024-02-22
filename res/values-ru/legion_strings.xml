@@ -401,7 +401,7 @@
 	
     <!-- Hide Status bar on lock screen -->
     <string name="hide_lockscreen_status_bar_title">Скрыть строку состояния</string>
-    <string name="hide_lockscreen_status_bar_summary">Коснитесь строки состояния, чтобы переключить видимость</string>
+    <string name="hide_lockscreen_status_bar_summary">Коснитесь строки состояния, чтобы переключить видимость (если устройство поддерживает это)</string>
 	
     <!-- Status bar QS - Battery -->
     <string name="qs_battery_style_title">Стиль батареи QS</string>
