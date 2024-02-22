@@ -19,6 +19,7 @@
 package com.android.settings.custom.buttons;
 
 import static com.android.internal.util.custom.hwkeys.DeviceKeysConstants.*;
+import static android.view.WindowManagerPolicyConstants.NAV_BAR_MODE_GESTURAL_OVERLAY;
 
 import android.app.ActivityManager;
 import android.content.ContentResolver;
@@ -31,6 +32,8 @@ import android.os.UserHandle;
 import android.os.SystemProperties;
 import android.provider.Settings;
 import android.util.Log;
+import android.content.om.IOverlayManager;
+import android.os.ServiceManager;
 
 import androidx.fragment.app.DialogFragment;
 import androidx.preference.SwitchPreference;
@@ -437,11 +440,15 @@ public class ButtonSettings extends SettingsPreferenceFragment implements
             updateDisableNavkeysOption();
             updateDisableNavkeysCategories(true);
             mHandler.postDelayed(new Runnable() {
+            IOverlayManager overlayManager = IOverlayManager.Stub.asInterface(
+                        ServiceManager.getService(Context.OVERLAY_SERVICE));
                 @Override
                 public void run() {
                     try {
                         mDisableNavigationKeys.setEnabled(true);
                         updateDisableNavkeysCategories(mDisableNavigationKeys.isChecked());
+                        overlayManager.setEnabledExclusiveInCategory(NAV_BAR_MODE_GESTURAL_OVERLAY,
+                            UserHandle.USER_CURRENT);
                     }catch(Exception e){
                     }
                 }
