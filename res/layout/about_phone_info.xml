@@ -41,6 +41,16 @@
 	android:contentDescription="@null"
 	android:orientation="vertical" />
 
+    <ImageView
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:scaleType="centerCrop"
+	android:gravity="center"
+	android:elevation="0dp"
+	android:contentDescription="@null"
+	android:orientation="vertical"
+	android:src="@drawable/legion_device" />
+
     </com.google.android.material.card.MaterialCardView>
 
     <LinearLayout
@@ -54,6 +64,22 @@
         android:layout_marginEnd="26dp"
         android:layout_centerVertical="true"
         android:layout_toEndOf="@+id/phone_image">
+
+        <TextView
+            android:id="@+id/device_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="4dp"
+            android:text="@string/legion_device_model"
+            style="@style/TextAppearance.LegionInfoTitle" />
+
+        <TextView
+            android:id="@+id/device_message"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="14dp"
+            android:text="@string/legion_device_model_summary"
+            style="@style/TextAppearance.LegionInfoSummary" />
 
         <TextView
             android:id="@+id/processor_title"

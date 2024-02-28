@@ -22,6 +22,8 @@
     <string name="build_date">Build date</string>
     <string name="legion_version">LegionOS version</string>
     <string name="about_device_name">Device</string>
+    <string name="legion_device_model">Device model</string>
+    <string name="legion_device_model_summary">Device name</string>
 
     <!-- Refresh rate -->
     <string name="refresh_rate_title">Refresh rate</string>
