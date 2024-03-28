@@ -45,7 +45,7 @@ import com.android.settings.custom.preference.CustomDialogPreference;
 public class ButtonBacklightBrightness extends CustomDialogPreference<AlertDialog> implements
         SeekBar.OnSeekBarChangeListener {
     private static final int BUTTON_BRIGHTNESS_TOGGLE_MODE_ONLY = 1;
-    private static final int DEFAULT_BUTTON_TIMEOUT = 3;
+    private static final int DEFAULT_BUTTON_TIMEOUT = 5;
     private static final int KEYBOARD_BRIGHTNESS_TOGGLE_MODE_ONLY = 1;
 
     public static final String KEY_BUTTON_BACKLIGHT = "pre_navbar_button_backlight";
